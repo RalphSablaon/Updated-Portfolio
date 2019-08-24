@@ -1,0 +1,79 @@
+.navbar {
+    min-width: 100%;
+}
+
+.navbar li {
+    display: inline
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/prism.png");
+    font-size: 16px;
+    margin: auto;
+    vertical-align: middle;
+    color: silver;
+    margin-bottom: 100px;
+    height: 100%;
+}
+
+.col-xs-8 {
+    float: left;
+    border: 1px solid black;
+    text-align: auto;
+    margin-top: 75px;    
+}
+
+.col-xs-2 {
+    float: left;
+}
+
+.myphoto {
+    float:left;
+    border: 2px solid #000000;
+    margin-right: 15px; margin-bottom: 150px;
+}
+
+#maincontent {
+    margin-top: 125px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+.col-xs-8 h2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    border-bottom: 3px solid black;
+}
+
+.col-xs-8 h2 {
+    padding-bottom: 40px;
+}
+
+.projectcolumn1 {
+    float: left;
+}
+
+.projectcolumn2 {
+    float: left;
+}
+
+footer {
+    clear: both; 
+    overflow: auto;
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    border-top: 3px solid #000000;
+    background-image: url("../images/prism.png");
+    margin-top: auto;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    border-top: 8px;
+    padding-top: 18px;
+}
+
