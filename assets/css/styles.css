@@ -13,13 +13,13 @@ body{
     margin: auto;
     vertical-align: middle;
     color: silver;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     height: 100%;
 }
 
 .col-xs-8 {
     float: left;
-    border: 1px solid black;
+    border: 5px ridge black;
     text-align: auto;
     margin-top: 75px;    
 }
@@ -59,14 +59,30 @@ body{
     float: left;
 }
 
+#name {
+    width: 658px;
+}
+
+#email {
+    width: 640px;
+}
+
+#message {
+    width: 751px;
+    height: 250px;
+}
+
+#submit {
+    margin-bottom: 20px;
+}
+
 footer {
-    clear: both; 
-    overflow: auto;
+    /* clear: both; 
+    overflow: auto; */
     position: fixed;
     left: 0; right: 0; bottom: 0;
     border-top: 3px solid #000000;
     background-image: url("../images/prism.png");
-    margin-top: auto;
     color: white;
 }
 
