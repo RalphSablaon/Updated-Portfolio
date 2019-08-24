@@ -20,7 +20,7 @@ body{
     float: left;
     border: 5px ridge black;
     text-align: auto;
-    margin-top: 75px;    
+    margin-top: 50px;    
 }
 
 .col-xs-2 {
@@ -34,7 +34,7 @@ body{
 }
 
 #maincontent {
-    margin-top: 125px;
+    margin-top: 150px;
     margin-bottom: 50px;
     border: 5px ridge black;
 }
@@ -44,9 +44,9 @@ body{
     margin-bottom: 50px;
 }
 
-/* #projectcontainer {
-    margin-bottom: 25px;
-} */
+#contactbody {
+    margin-bottom: 50px;
+}
 
 .col-xs-8 h2 {
     text-align: center;
@@ -82,6 +82,8 @@ body{
 
 #submit {
     margin-bottom: 20px;
+    margin-left: 40px;
+    width: 100px;
 }
 
 footer {
